@@ -8,7 +8,9 @@
     "react-dom": "18.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+    
   }
 }

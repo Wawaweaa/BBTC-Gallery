@@ -2,7 +2,7 @@ import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';  // 确保这个路径正确
 
-import App from './App';  // 导入 App 而不是 TestApp
+import App from './App.jsx';  // 导入 App 而不是 TestApp
 
 // 添加视口元标签
 if (!document.querySelector('meta[name="viewport"]')) {
